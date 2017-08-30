@@ -1,7 +1,7 @@
-FROM jupyter/scipy-notebook
+FROM jupyter/scipy-notebook:6399d2faf16f
 
 # Launchbot labels
-LABEL name.launchbot.io="test1"
+LABEL name.launchbot.io="test2"
 LABEL workdir.launchbot.io="/usr/workdir"
 LABEL 8888.port.launchbot.io="Jupyter Notebook"
 
